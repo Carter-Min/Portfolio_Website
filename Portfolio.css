@@ -1,0 +1,48 @@
+.header .banner {
+    margin-top: -10px;
+    margin-right:-10px;
+    margin-bottom:-2%;
+    margin-left: -10px;
+    height: 185px;
+    overflow:hidden;
+}
+
+.header .banner img {
+    transform:translate(0px, -32%);
+}
+.header .name{
+    position:absolute;
+    margin-top: -8.75%;
+    margin-left: 50% ;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 38px;
+}
+
+.header .nav {
+    list-style-type:none;
+    margin-top:22px;
+    margin-right:-8px;
+    padding:0;
+    overflow: hidden;
+}
+
+.header .nav li {
+    float:right;
+    color:white;
+    background-color:black;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.header .nav li a {
+    text-decoration: none;
+    color:white;
+    
+}
+
+.header .nav li:hover {
+    display: block;
+    padding: 4px;
+    background-color:#ff0000;
+}
